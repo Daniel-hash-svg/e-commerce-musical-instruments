@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "instrument": "Guitar",
+        "price": 2000,
+        "imgUrl": "/images/synyster.jpg"
+    },
+    {
+        "id": 2,
+        "instrument": "Drums",
+        "price": 1200,
+        "imgUrl": "/images/drums.jpg"
+    },
+    {
+        "id": 3,
+        "instrument": "Acoustic Guitar",
+        "price": 800,
+        "imgUrl": "/images/violao.jpg"
+    },
+    {
+        "id": 4,
+        "instrument": "Banjo",
+        "price": 900,
+        "imgUrl": "/images/banjo2.jpg"
+    },
+    {
+        "id": 5,
+        "instrument": "Bass",
+        "price": 1000,
+        "imgUrl": "/images/bass.jpg"
+    },
+    {
+        "id": 6,
+        "instrument": "Piano",
+        "price": 3000,
+        "imgUrl": "/images/piano.jpg"
+    }
+]
