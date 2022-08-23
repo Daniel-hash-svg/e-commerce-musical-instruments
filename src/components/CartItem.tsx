@@ -8,8 +8,6 @@ type CartItemProps = {
     quantity: number
 }
 
-
-
  function CartItem({ id, quantity }: CartItemProps) {
   const { removeFromCart } =useShoppingCart() 
   const instrumentProduct = storeItems.find((item)=> item.id === id)

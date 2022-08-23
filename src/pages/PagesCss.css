@@ -4,64 +4,69 @@
     box-sizing: border-box
     }
 
+
 .store{
-    justify-content: center;
     display: flex;
-}
+    flex-wrap: wrap;
+    background-color: #5454542c;
+     
+    justify-content:space-around; /* achei melhor que o around e o evenly. Deu um pouco de espaço entre os instrumentos, mas não afastou demais.*/
+   
+} /* aqui engloba todos os cards. Aí tem que ser aqui pra fazer ficar uma do lado da outra.*/ 
+
 
 /* aqui abaixo é sobre a página Cart */
 
-
-h1{
-    justify-content: center;
-    text-align: center;
-}
-
-h2{
-    justify-content: center;
-    text-align: center;
-}
-
+.cart{
+    background-color: #5454542c;
+    height: 700px;
+} /* tive que botar N° alto no height pra que essa cor pegasse tudo. 100% não dava certo, aí ficava uma parte meio cinza e o fundo branco.*/
 
 .link{
     text-decoration: none;
-    
 }
 
 .totalPrice{
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 50px;
 }
 
 .purchaseButton{
-    background-color: rgba(0, 0, 0, 0.932);
-    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(0, 102, 255);
     width: 350px;
-    height: 35px;
-    margin-left: 1045px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+    height: 40px;
     font-size: 18px;
-}
+    margin-top: 130px;
+} /* só deu pra separar do navbar usando o margin top aqui e no button de baixo. Fazendo dentro do twoButtons não resolvia, porque fazia a navbar abaixar também.*/
 
 .buyMoreButton{
-    background-color: rgba(0, 0, 0, 0.932);
-    margin-top: 10px;
-    position: absolute;
-    margin-left: -1250px;
+    border-radius: 20px;
+    background-color: rgb(0, 102, 255);
+    margin-top: 130px;
     width: 350px;
-    height: 35px;
+    height: 40px;
     font-size: 18px;
+} 
+
+.twoButtons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
-.wrapper{
-    border: 2px solid;
+.wrapper{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 65px;
 }
-
 
 /* aqui abaixo é sobre a página de Conclusion */
+
+
 
 .conclusion{
     font-size: 50px;

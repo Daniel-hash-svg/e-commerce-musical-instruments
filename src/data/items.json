@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "instrument": "Guitar",
-        "price": 2000,
-        "imgUrl": "/images/synyster.jpg"
+        "instrument": "Electric Guitar",
+        "price": 1300,
+        "imgUrl": "/images/guitar.png"
     },
     {
         "id": 2,
-        "instrument": "Drums",
-        "price": 1200,
-        "imgUrl": "/images/drums.jpg"
+        "instrument": "Hawaiian Ukulele",
+        "price": 350,
+        "imgUrl": "/images/ukulele.png"
     },
     {
         "id": 3,
         "instrument": "Acoustic Guitar",
-        "price": 800,
-        "imgUrl": "/images/violao.jpg"
+        "price": 700,
+        "imgUrl": "/images/editadoViolao.png"
     },
     {
         "id": 4,
-        "instrument": "Banjo",
-        "price": 900,
-        "imgUrl": "/images/banjo2.jpg"
+        "instrument": "Acoustic Banjo",
+        "price": 600,
+        "imgUrl": "/images/editadoBanjo.png"
     },
     {
         "id": 5,
-        "instrument": "Bass",
-        "price": 1000,
-        "imgUrl": "/images/bass.jpg"
+        "instrument": "Epiphone Bass",
+        "price": 800,
+        "imgUrl": "/images/editadoBass.png"
     },
     {
         "id": 6,
         "instrument": "Piano",
         "price": 3000,
-        "imgUrl": "/images/piano.jpg"
+        "imgUrl": "/images/editadoPiano.png"
     }
 ]

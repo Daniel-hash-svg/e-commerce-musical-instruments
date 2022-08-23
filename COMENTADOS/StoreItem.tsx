@@ -6,7 +6,7 @@ type StoreItemProps = {
     instrument: string
     price: number
     imgUrl: string
-} // São as props recebidas no STore.tsx. Como é typescript, precisa dar a "tipagem" das props recebidas aqui e passar essa const do lado das props na função abaixo.
+} // São as props recebidas no Store.tsx. Como é typescript, precisa dar a "tipagem" das props recebidas aqui e passar essa const do lado das props na função abaixo.
 
 export function StoreItem({ id, instrument, price, imgUrl }: StoreItemProps) {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart} = useShoppingCart() // Vem do estado global. Essas 4 funções são uma parte da  tipagem do shoppingCartContext. Esse shoppingCartContext foi passado como parâmetro no useContext, dentro da função useShoppingCart

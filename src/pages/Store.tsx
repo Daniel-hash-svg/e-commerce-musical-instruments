@@ -8,17 +8,13 @@ function Store() {
     
       <div className="pageStore">
         <Navbar />
-        <div className="store">
-        
-        <div>
+        <container className="store">
           {storeItems.map((item => (
             <div key={item.id}>
                <StoreItem {...item}/>
             </div>
           )))}
-        </div>
-        
-            </div>
+            </container>
       </div>
   )
   
