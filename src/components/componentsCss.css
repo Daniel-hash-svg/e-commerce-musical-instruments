@@ -60,7 +60,8 @@
 }
 
 .cardItem:hover {
-    border: 1px solid;
+    /* border: 1px solid;       #5454542c  */
+    background-color: rgba(184, 175, 175, 0.527);
 }
 
 .cardImage{
